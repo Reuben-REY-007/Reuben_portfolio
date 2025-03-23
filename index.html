@@ -6,14 +6,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Reuben Ekow Yawson - Frontend Developer Portfolio">
   <title>Reuben Ekow Yawson | Frontend Developer</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="light-mode">
+  <header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#"><span class="highlight">R</span>euben</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle-container">
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Reuben Ekow Yawson</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>I build beautiful, user-friendly, and responsive web applications that deliver exceptional user
+                    experiences.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+              <div class="image-overlay">
+                <img src="images/reuben.jpg" alt="Reuben Ekow Yawson" class="profile-img">
+                <div class="social-icons">
+                    <a href="https://github.com/Reuben-REY-007" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/reuben-ekow-yawson" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
 
   <script src="script.js"></script>
 </body>
